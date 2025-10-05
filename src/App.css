@@ -1,38 +1,207 @@
-.App {
+/* 폰트 설정 */
+@font-face {
+  font-family: 'GMarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GMarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GMarketSans';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 기본 CSS 설정*/
+*{
+  /*font-family: "Pretendard", sans-serif!important;*/
+  /*font-weight: 400;*/
+  font-family: 'GMarketSans', sans-serif !important;
+  color: #3d181a;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4,h5 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 900;
+  list-style-type: none;
+  margin: 30px 0 20px;
+}
+p {
+  font-weight: 400;
+  margin: 10px 0 5px;
+}
+span {
+  font-weight: 300;
+  font-size: 14px;
+}
+strong {
+  font-weight: 700;
+}
+dl {
+  display: flex;
+}
+dt {
+  width: 100px;
   text-align: center;
+  border-radius: 10px;
+  padding: 2.5px 0;
+  margin-bottom: 5px;
+  margin-right: 10px;
+
+  background-color: #ffd649;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 자주 쓸 공용 Class 설정*/
+.w100 {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.flex.wrap {
+  flex-wrap: wrap
+}
+.pointStrong {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #ffd649;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* root 영역 */
+#root {
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header 영역 */
+header {
+  position: sticky;
+  max-width: 250px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /*box-shadow: 3px 0px 5px #f1f1f1;*/
+  background-color: #FFF;
+  padding: 20px;
+}
+header > div {
+  padding: 20px 10px;
+}
+header ~ main {
+  position: sticky;
+}
+header button {
+  display: flex;
+  border: none;
+  background-color: transparent;
+}
+header a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 20px 0;
+}
+nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+nav button {
+  justify-content: end;
+}
+/* section 공용 설정 */
+section {
+  min-height: 100vh;
+  box-shadow: 0px 0px 5px #e0e0e0;
+}
+section > div {
+  padding: 80px;
+}
+section .title {
+  border-bottom: 1px solid #ffd649;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+/*section .title > *:not(h1) {*/
+/*  margin-bottom: 20px;*/
+/*}*/
+section .title .side_info * {
+  font-size: 14px;
+  margin: 5px 0;
+  text-align: right;
 }
 
-.App-link {
-  color: #61dafb;
+/* section_1 영역 : [About Me] CSS */
+.person {
+  text-align: center;
+}
+.person img {
+  max-width: 250px;
+}
+.person h1 {
+  font-size: 30px;
+  margin: 20px 0 10px;
+}
+.person span {
+  /*font-size: 17px;*/
+}
+.competency {
+  width: calc(100% - 350px);
+  padding-left: 80px;
+  margin-top: -30px;
+}
+.competency ul {
+  flex-direction: column;
+  max-height: 550px;
+}
+.competency span {
+  display: inline-block;
+  margin: 5px 0 5px;
+}
+.competency > ul > li:nth-last-child(1),
+.competency > ul > li:nth-last-child(2) {
+  margin-left: -100px;
+}
+.competency li:last-child span {
+  margin-left: 15px;
+}
+.competency li:last-child strong {
+  font-weight: 400;
+  margin-left: 10px;
+}
+.competency li li:not(strong, span) {
+  color: #ffd649;
+}
+.introduction {
+  margin-top: 50px;
+}
+.introduction p {
+  line-height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* section_2 영역 : [SKILLS] CSS */
+
+.badges {
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
