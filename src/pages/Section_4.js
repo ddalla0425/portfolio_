@@ -4,7 +4,7 @@ function Section_4(){
             <div className="flex wrap">
                 <div className="title flex wrap w100">
                     <div>
-                        <h1>티슈인맥(Tissue Networking)</h1>
+                        <h1>티슈인맥</h1>
                         <span className="pointStrong">넓고 얕은 관계를 지향하는 <strong>SNS형 개인 블로그</strong> 플랫폼 서비스</span>
                     </div>
                     <div className="side_info">
