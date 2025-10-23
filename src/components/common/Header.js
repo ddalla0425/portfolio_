@@ -10,11 +10,11 @@ function Header({ showNav, setShowNav }) {
                 <nav>
                     <button onClick={() => setShowNav(false)}><XLg size={24}/></button>
                     <ul>
-                        <li><a href="#section_1">About Me</a></li>
-                        <li><a href="#section_2">Skills</a></li>
-                        <li><a href="#section_3">소리손순</a></li>
-                        <li><a href="#section_4">티슈인맥</a></li>
-                        <li><a href="#section_5">External Activities</a></li>
+                        <li><a onClick={() => setShowNav(false)} href="#section_1">About Me</a></li>
+                        <li><a onClick={() => setShowNav(false)} href="#section_2">Skills</a></li>
+                        <li><a onClick={() => setShowNav(false)} href="#section_3">소리손순</a></li>
+                        <li><a onClick={() => setShowNav(false)} href="#section_4">티슈인맥</a></li>
+                        <li><a onClick={() => setShowNav(false)} href="#section_5">External Activities</a></li>
                     </ul>
                 </nav>
             )}
