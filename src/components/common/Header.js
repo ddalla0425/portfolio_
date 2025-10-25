@@ -12,9 +12,9 @@ function Header({ showNav, setShowNav }) {
                     <ul>
                         <li><a onClick={() => setShowNav(false)} href="#section_1">About Me</a></li>
                         <li><a onClick={() => setShowNav(false)} href="#section_2">Skills</a></li>
-                        <li><a onClick={() => setShowNav(false)} href="#section_3">소리손순</a></li>
-                        <li><a onClick={() => setShowNav(false)} href="#section_4">티슈인맥</a></li>
-                        <li><a onClick={() => setShowNav(false)} href="#section_5">External Activities</a></li>
+                        <li><a onClick={() => setShowNav(false)} href="#section_3">플젝: 소리손순</a></li>
+                        <li><a onClick={() => setShowNav(false)} href="#section_4">플젝: 티슈인맥</a></li>
+                        {/*<li><a onClick={() => setShowNav(false)} href="#section_5">External Activities</a></li>*/}
                     </ul>
                 </nav>
             )}
