@@ -35,7 +35,7 @@ function Section_3(){
                     </dl>
                     <dl>
                         <dt>백엔드</dt>
-                        <dd>Java, Spring Boot, Spring AI, SpringSecurity, JWT, Python, FastAPI, MariaDB</dd>
+                        <dd>Java, Spring Boot, JPA, Spring AI, SpringSecurity, JWT, Python, FastAPI, MariaDB</dd>
                     </dl>
                     <dl>
                         <dt>배포</dt>
