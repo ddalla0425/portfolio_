@@ -10,7 +10,7 @@ function Section_1(){
                     <p>Growth Recorder</p>
                     <ul className="link_icon">
                         <li><a href="https://github.com/ddalla0425" target="_blank"><Github/></a></li>
-                        <li><a href="https://grizzly-wallet-e17.notion.site/615ece80257444069ce0105ef0958837"
+                        <li><a href="https://ddalla0425.notion.site"
                                target="_blank"><img src="/images/Shape.png"/></a></li>
                         <li></li>
                     </ul>
