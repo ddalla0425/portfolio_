@@ -153,9 +153,18 @@ section .title {
   justify-content: space-between;
   margin-bottom: 1.875rem;
 }
-/*section .title > *:not(h1) {*/
-/*  margin-bottom: 1.25rem;*/
-/*}*/
+.link_icon {
+  display: inline-flex;
+  justify-content: center;
+}
+.link_icon a {
+  display: inline-block;
+  font-size: 1.25rem;
+  margin-left: 0.313rem;
+}
+.link_icon img {
+  width: 1.25rem;
+}
 section .title .side_info * {
   font-size: 0.875rem;
   margin: 0.313rem 0;
@@ -170,11 +179,21 @@ section .title .side_info * {
 .skills > ul > li li:last-child {
   margin-bottom: 0;
 }
+.project .preview {
+  display: flex;
+  margin-bottom: 1.875rem;
+}
+.project .preview li {
+  width: 25%;
+}
+.project .preview img {
+  width: 100%;
+}
 /* section_1 영역 : [About Me] CSS */
 .person {
   text-align: center;
 }
-.person img {
+.person > img {
   max-width: 250px;
 }
 .person h1 {
@@ -218,7 +237,7 @@ section .title .side_info * {
 /* 반응형 CSS 조절 */
 
 @media (max-width:1350px) {
-  .open + main .person img {
+  .open + main .person > img {
     width: 150px
   }
   .open + main .side_info {
@@ -245,7 +264,7 @@ section .title .side_info * {
   .pointStrong {
     margin-bottom: 0.625rem;
   }
-  .person img {
+  .person > img {
     width: 150px;
   }
   .competency {
@@ -280,7 +299,7 @@ section .title .side_info * {
   .open + main #section_1 > div {
     justify-content: center;
   }
-  .open + main .person img {
+  .open + main .person > img {
     width: 250px
   }
   .open + main .competency {
@@ -330,7 +349,7 @@ section .title .side_info * {
   #section_1 > div {
     justify-content: center;
   }
-  .person img {
+  .person > img {
     width: 200px
   }
   .competency {
@@ -350,7 +369,7 @@ section .title .side_info * {
     width: 80px;
     min-width: 80px;
   }
-  .person img {
+  .person > img {
     width: 150px
   }
   .competency {

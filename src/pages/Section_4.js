@@ -1,10 +1,20 @@
+import {Github} from "react-bootstrap-icons";
+
 function Section_4(){
     return(
         <section id="section_4">
             <div className="flex wrap">
                 <div className="title flex wrap w100">
                     <div>
-                        <h1>티슈인맥</h1>
+                        <h1>티슈인맥
+                            <ul className="link_icon">
+                                <li><a target="_blank"
+                                       href="https://github.com/ddalla0425/TN-project2/tree/master"><Github/></a></li>
+                                <li><a target="_blank"
+                                       href="https://blimu.notion.site/3HDS-3848d735f48449eba1b060a89d446ac9"><img
+                                    src="/images/Shape.png"/></a></li>
+                            </ul>
+                        </h1>
                         <span className="pointStrong">넓고 얕은 관계를 지향하는 <strong>SNS형 개인 블로그</strong> 플랫폼 서비스</span>
                     </div>
                     <div className="side_info">
@@ -14,6 +24,12 @@ function Section_4(){
                     </div>
                 </div>
                 <div className="project">
+                    <ul className="preview">
+                        <li><img src="/images/tissu_main.gif"/></li>
+                        <li><img src="/images/tissu_pay.gif"/></li>
+                        <li><img src="/images/tissu_write.gif"/></li>
+                        <li><img src="/images/tissu_folder.gif"/></li>
+                    </ul>
                     <dl className="stack">
                         <dt>프론트엔드</dt>
                         <dd>JavaScript, HTML5, CSS3, Thymeleaf</dd>
@@ -39,14 +55,18 @@ function Section_4(){
                         <li>
                             <h2>포스팅 기능 구현 (이미지 업로드 포함)</h2>
                             <ul>
-                                <li>- 게시글 등록/수정/삭제 기능을 트랜잭션으로 관리하여 첨부 이미지와 태그 등 관련 데이터 일괄 처리, 오류 발생 시 자동 롤백으로 데이터 무결성 확보</li>
+                                <li>- 게시글 등록/수정/삭제 기능을 트랜잭션으로 관리하여 첨부 이미지와 태그 등 관련 데이터 일괄 처리, 오류 발생 시 자동 롤백으로 데이터 무결성
+                                    확보
+                                </li>
                                 <li>- FormData 기반 글쓰기 처리 및 필수 항목 검증을 구현하여, 클라이언트와 서버 간 데이터 전송 과정에서 발생 가능한 오류 방지</li>
                                 <li>- 게시글 조회 시 존재하지 않거나 권한 없는 게시글을 구분해 세분화된 상태 코드와 메시지를 제공, 사용자 경험과 디버깅 편의성 향상</li>
                                 <li>- 에디터와 연계하여 실시간 입력 처리, 태그 추출, 글자 크기/포맷 적용 기능을 구현, 편리하고 직관적인 글쓰기 환경 제공</li>
                                 <li>- 이미지 업로드 및 처리 로직을 통합하여 유지보수성과 재사용성 강화</li>
                                 <li>- DTO 및 Mapper 활용으로 데이터 처리 흐름을 표준화 하고, 코드 가독성 및 확장성 확보</li>
                                 <li>- UI 상태 연계 로직(로딩, 페이징, 보기 방식 전환 등)을 구현하여 사용자 경험의 일관성과 편리성 확보</li>
-                                <li>- 무한 스크롤 기능 구현으로 게시글 리스트를 페이지 단위가 아니라 스크롤 시점에 따라 동적 로딩, 서버 부담 최소화 및 사용자의 자연스러운 콘텐츠 탐색 경험 제공</li>
+                                <li>- 무한 스크롤 기능 구현으로 게시글 리스트를 페이지 단위가 아니라 스크롤 시점에 따라 동적 로딩, 서버 부담 최소화 및 사용자의 자연스러운 콘텐츠
+                                    탐색 경험 제공
+                                </li>
                             </ul>
                         </li>
                         <li>

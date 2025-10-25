@@ -1,3 +1,5 @@
+import {Github} from "react-bootstrap-icons";
+
 function Section_1(){
     return(
         <section id="section_1">
@@ -6,6 +8,12 @@ function Section_1(){
                     <img src="/images/증명사진.png" alt="증명사진"/>
                     <h1>김다솔</h1>
                     <p>Growth Recorder</p>
+                    <ul className="link_icon">
+                        <li><a href="https://github.com/ddalla0425" target="_blank"><Github/></a></li>
+                        <li><a href="https://grizzly-wallet-e17.notion.site/615ece80257444069ce0105ef0958837"
+                               target="_blank"><img src="/images/Shape.png"/></a></li>
+                        <li></li>
+                    </ul>
                 </div>
                 <div className="competency">
                     <ul className="flex wrap">

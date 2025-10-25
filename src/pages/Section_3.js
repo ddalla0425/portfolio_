@@ -1,10 +1,19 @@
+import {Github} from "react-bootstrap-icons";
+
 function Section_3(){
     return(
         <section id="section_3">
             <div className="flex wrap">
                 <div className="title flex wrap w100">
                     <div>
-                        <h1>소리손순</h1>
+                        <h1>소리손순
+                            <ul className="link_icon">
+                                <li><a target="_blank" href="https://github.com/sign-muscat"><Github/></a></li>
+                                <li><a target="_blank"
+                                       href="https://www.notion.so/e6b855c636c9476096970c04c5ea9ad1?v=e2781acdf21d4ad3922d86ce4f24186d"><img
+                                    src="/images/Shape.png"/></a></li>
+                            </ul>
+                        </h1>
                         <span className="pointStrong"><strong>청각 장애인</strong>과의 언어장벽 해소를 위해 소리, 손, 입술(순)을 컨셉으로, 의사소통을 학습하는 게임 서비스</span>
                     </div>
                     <div className="side_info">
@@ -14,6 +23,12 @@ function Section_3(){
                     </div>
                 </div>
                 <div className="project">
+                    <ul className="preview">
+                        <li><img src="/images/sorisonsoon_main.png"/></li>
+                        <li><img src="/images/sorisonsoon_hand.gif"/></li>
+                        <li><img src="/images/sorisonsoon_lip.gif"/></li>
+                        <li><img src="/images/sorisonsoon_sound.gif"/></li>
+                    </ul>
                     <dl className="stack">
                         <dt>프론트엔드</dt>
                         <dd>JavaScript, React, Redux, Axios, BootStrap</dd>
