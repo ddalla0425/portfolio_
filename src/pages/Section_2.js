@@ -51,7 +51,7 @@ function Section_2(){
                                 <li>- Java 기초 문법 및 객체지향 프로그래밍에 대한 이해</li>
                                 <li>- JDBC를 통한 DB 연동 기초 경험</li>
                                 <li>- Spring Boot, Spring Security, JPA, MyBatis 등 다양한 프레임워크 활용하여 웹 제작 구축 가능</li>
-                                <li>- MVC 패턴 기반으로 관심사 분리를 고려한 설계 경험</li>
+                                <li>- MVC 패턴 기반으로 관심사 분리를 고려한 설계 및 Thymeleaf를 활용한 뷰 렌더링 경험</li>
                                 <li>- Spring AI를 활용하여 Python 없이도 Spring 환경에서 AI 모델 서빙 가능</li>
                                 <li>- REST API Level 2 설계, Spring HATEOAS를 적용하여 Level 3 REST API 설계 경험</li>
                             </ul>
@@ -65,14 +65,14 @@ function Section_2(){
                                 <li>- MyBatis와 비교 학습 경험 (XML 기반 SQL 매핑 이해)</li>
                             </ul>
                         </li>
-                        <li>
-                            <h2>JSP & View Layer</h2>
-                            <ul>
-                                <li>- JSP 기반 Model1 / Model2 아키텍처 이해</li>
-                                <li>- Java Bean, JSTL, EL 표현식을 활용한 DB 연동 경험</li>
-                                <li>- Spring MVC와 Thymeleaf 기반의 뷰 렌더링 경험</li>
-                            </ul>
-                        </li>
+                        {/*<li>*/}
+                        {/*    <h2>JSP & View Layer</h2>*/}
+                        {/*    <ul>*/}
+                        {/*        <li>- JSP 기반 Model1 / Model2 아키텍처 이해</li>*/}
+                        {/*        <li>- Java Bean, JSTL, EL 표현식을 활용한 DB 연동 경험</li>*/}
+                        {/*        <li>- Spring MVC와 Thymeleaf 기반의 뷰 렌더링 경험</li>*/}
+                        {/*    </ul>*/}
+                        {/*</li>*/}
                         <li>
                             <h2>RDBMS</h2>
                             <ul>
