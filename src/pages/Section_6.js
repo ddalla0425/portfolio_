@@ -70,10 +70,10 @@ function Section_6(){
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><img
+                                                <td><img alt="원본페이지 잘못된 슬라이드 예시 이미지"
                                                     src="/images/readme/original_slide.gif"/>
                                                 </td>
-                                                <td><img
+                                                <td><img alt="클론페이지 수정된 슬라이드 예시 이미지"
                                                     src="/images/readme/clone_slide.gif"/>
                                                 </td>
                                             </tr>
@@ -90,10 +90,10 @@ function Section_6(){
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><img
+                                                <td><img alt="원본페이지 리사이즈시 특정 슬라이드가 튀는 잘못된 예시 이미지"
                                                     src="/images/readme/original_resize.gif"/>
                                                 </td>
-                                                <td><img
+                                                <td><img alt="클론페이지 리사이즈시 수정된 슬라이드 예시 이미지"
                                                     src="/images/readme/clone_resize.gif"/>
                                                 </td>
                                             </tr>
@@ -110,10 +110,10 @@ function Section_6(){
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><img
+                                                <td><img alt="원본페이지 모바일 ui 잘못된 예시 이미지"
                                                     src="/images/readme/original_mobile_ui.png"/>
                                                 </td>
-                                                <td valign="top"><img
+                                                <td valign="top"><img alt="클론페이지 모바일 ui 수정된 예시 이미지"
                                                     src="/images/readme/clone_mobile_ui.png"/>
                                                 </td>
                                             </tr>
