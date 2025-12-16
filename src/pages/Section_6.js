@@ -67,10 +67,10 @@ function Section_6(){
                                         </thead>
                                         <tbody>
                                         <td><img
-                                            src="https://github.com/ddalla0425/yanoljaResearch-front/blob/main/public/assets/readme/%EC%9B%90%EB%B3%B8%ED%8E%98%EC%9D%B4%EC%A7%80%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C.gif"/>
+                                            src="/images/readme/original_slide.gif"/>
                                         </td>
                                         <td><img
-                                            src="https://github.com/ddalla0425/yanoljaResearch-front/blob/main/public/assets/readme/%ED%81%B4%EB%A1%A0%ED%8E%98%EC%9D%B4%EC%A7%80%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C.gif"/>
+                                            src="/images/readme/clone_slide.gif"/>
                                         </td>
                                         </tbody>
                                     </table>
@@ -83,10 +83,10 @@ function Section_6(){
                                         </thead>
                                         <tbody>
                                         <td><img
-                                            src="https://github.com/ddalla0425/yanoljaResearch-front/blob/main/public/assets/readme/%EC%9B%90%EB%B3%B8%EB%A6%AC%EC%82%AC%EC%9D%B4%EC%A6%88%ED%8A%90%ED%98%84%EC%83%81.gif"/>
+                                            src="/images/readme/original_resize.gif"/>
                                         </td>
                                         <td><img
-                                            src="https://github.com/ddalla0425/yanoljaResearch-front/blob/main/public/assets/readme/%ED%81%B4%EB%A1%A0%EB%A6%AC%EC%82%AC%EC%9D%B4%EC%A7%95%ED%8A%90%EC%9E%A1%EC%9D%8C.gif"/>
+                                            src="/images/readme/clone_resize.gif"/>
                                         </td>
                                         </tbody>
                                     </table>
@@ -99,10 +99,10 @@ function Section_6(){
                                         </thead>
                                         <tbody>
                                         <td><img
-                                            src="https://github.com/ddalla0425/yanoljaResearch-front/blob/main/public/assets/readme/%EC%9B%90%EB%B3%B8%EB%AA%A8%EB%B0%94%EC%9D%BC%EB%B6%80%EC%9E%90%EC%97%B0%EC%8A%A4%EB%9F%AC%EC%9A%B4UI.png"/>
+                                            src="/images/readme/original_mobile_ui.png"/>
                                         </td>
                                         <td valign="top"><img
-                                            src="https://github.com/ddalla0425/yanoljaResearch-front/blob/main/public/assets/readme/%ED%81%B4%EB%A1%A0%EB%AA%A8%EC%9E%90%EC%9D%BC%EC%9E%90%EC%97%B0%EC%8A%A4%EB%9F%AC%EC%9A%B4UI.png"/>
+                                            src="/images/readme/clone_mobile_ui.png"/>
                                         </td>
                                         </tbody>
                                     </table>
