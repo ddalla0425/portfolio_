@@ -1,4 +1,5 @@
 import {Github} from "react-bootstrap-icons";
+import React from "react";
 
 function Section_6(){
     return(
@@ -62,48 +63,60 @@ function Section_6(){
                                 <li>- 화면 축소 시 스택 해제로 발생하던 shadow/레이아웃 잘림 문제를 보완하여 반응형에서도 스택 품질 유지
                                     <table border="ellipsis">
                                         <thead>
-                                        <th>Before</th>
-                                        <th>After</th>
+                                            <tr>
+                                                <th>Before</th>
+                                                <th>After</th>
+                                            </tr>
                                         </thead>
                                         <tbody>
-                                        <td><img
-                                            src="/images/readme/original_slide.gif"/>
-                                        </td>
-                                        <td><img
-                                            src="/images/readme/clone_slide.gif"/>
-                                        </td>
+                                            <tr>
+                                                <td><img
+                                                    src="/images/readme/original_slide.gif"/>
+                                                </td>
+                                                <td><img
+                                                    src="/images/readme/clone_slide.gif"/>
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </li>
                                 <li>- 리사이즈 시 특정 슬라이드가 튀는 현상을 UI 조정으로 개선
                                     <table border="ellipsis">
                                         <thead>
-                                        <th>Before</th>
-                                        <th>After</th>
+                                            <tr>
+                                                <th>Before</th>
+                                                <th>After</th>
+                                            </tr>
                                         </thead>
                                         <tbody>
-                                        <td><img
-                                            src="/images/readme/original_resize.gif"/>
-                                        </td>
-                                        <td><img
-                                            src="/images/readme/clone_resize.gif"/>
-                                        </td>
+                                            <tr>
+                                                <td><img
+                                                    src="/images/readme/original_resize.gif"/>
+                                                </td>
+                                                <td><img
+                                                    src="/images/readme/clone_resize.gif"/>
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </li>
                                 <li>- Press 텍스트 라인 처리(ellipsis) 규칙을 개선해 가독성 향상
                                     <table border="ellipsis">
                                         <thead>
-                                        <th>Before</th>
-                                        <th>After</th>
+                                            <tr>
+                                                <th>Before</th>
+                                                <th>After</th>
+                                            </tr>
                                         </thead>
                                         <tbody>
-                                        <td><img
-                                            src="/images/readme/original_mobile_ui.png"/>
-                                        </td>
-                                        <td valign="top"><img
-                                            src="/images/readme/clone_mobile_ui.png"/>
-                                        </td>
+                                            <tr>
+                                                <td><img
+                                                    src="/images/readme/original_mobile_ui.png"/>
+                                                </td>
+                                                <td valign="top"><img
+                                                    src="/images/readme/clone_mobile_ui.png"/>
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </li>
