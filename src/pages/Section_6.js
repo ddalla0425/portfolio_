@@ -76,7 +76,7 @@ function Section_6(){
                                     </table>
                                 </li>
                                 <li>- 리사이즈 시 특정 슬라이드가 튀는 현상을 UI 조정으로 개선
-                                    <table>
+                                    <table border="ellipsis">
                                         <thead>
                                         <th>Before</th>
                                         <th>After</th>
@@ -92,7 +92,7 @@ function Section_6(){
                                     </table>
                                 </li>
                                 <li>- Press 텍스트 라인 처리(ellipsis) 규칙을 개선해 가독성 향상
-                                    <table>
+                                    <table border="ellipsis">
                                         <thead>
                                         <th>Before</th>
                                         <th>After</th>
