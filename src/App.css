@@ -71,6 +71,11 @@ dt {
 }
 table {
   border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+table img {
+  width: 100%;
 }
 
 /* 자주 쓸 공용 Class 설정*/
@@ -237,6 +242,12 @@ section .title .side_info * {
 }
 .introduction p {
   line-height: 1.875rem;
+}
+
+/* section_6 영역 : [야놀자 리서치] CSS */
+#section_6 table {
+  margin-top: 0.313rem;
+  margin-bottom: 1.25rem;
 }
 
 /* 반응형 CSS 조절 */
