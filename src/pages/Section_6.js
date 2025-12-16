@@ -9,8 +9,8 @@ function Section_6(){
                     <div>
                         <h1>[프론트] 야놀자리서치
                             <ul className="link_icon">
-                                <li><a target="_blank" href="https://github.com/ddalla0425/yanoljaResearch-front"><Github/></a></li>
-                                <li><a target="_blank" href="https://yanolja-research-front.vercel.app/">Vercel 확인</a></li>
+                                <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/ddalla0425/yanoljaResearch-front"><Github/></a></li>
+                                <li><a target="_blank" rel="noopener noreferrer" href="https://yanolja-research-front.vercel.app/">Vercel 확인</a></li>
                             </ul>
                         </h1>
                         <span className="pointStrong">야놀자 리서치 메인 페이지 카드 슬라이더 UI를 Swiper로 재현하고 개선한 <strong>클론 프로젝트</strong>입니다.</span>
