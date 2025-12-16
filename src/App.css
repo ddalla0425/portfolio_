@@ -153,7 +153,7 @@ header.open + main {
 /* section 공용 설정 */
 section {
   min-height: 100vh;
-  box-shadow: 0px 0px 0.313rem #e0e0e0;
+  box-shadow: 0 0 0.313rem #e0e0e0;
 }
 section > div {
   padding: 5rem;
