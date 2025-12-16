@@ -46,7 +46,7 @@ function Section_6(){
                                     커스텀 전략’으로 안정화
                                 </li>
                                 <li>- autoplay + prev/next + pagination 동작을 프로젝트 요구에 맞게 직접 제어하여 원본과 유사한 인터랙션 구현</li>
-                                <li>- <a href="https://ddalla0425.notion.site/?p=2c327e1365db80279b77d8334e872365&pm=s">해당 트러블 슈팅 보러가기</a></li>
+                                <li>- <a target="_blank" rel="noopener noreferrer" href="https://ddalla0425.notion.site/?p=2c327e1365db80279b77d8334e872365&pm=s">해당 트러블 슈팅 보러가기</a></li>
                             </ul>
                         </li>
                         <li>
@@ -128,8 +128,8 @@ function Section_6(){
                                 <li>- Vercel 배포 중 App Router 환경에서 useSearchParams 사용으로 발생한 프리렌더링 이슈를 구조 개선으로 해결하고,
                                     Next.js 보안 취약점 대응을 위해 npx fix-react2shell-next로 버전 업데이트 후 배포 성공
                                 </li>
-                                <li>- <a
-                                    href="https://www.notion.so/f9e333e4494d41df88341e9db11e8fb5?p=2cb27e1365db802db0abd4721df3c452&pm=s">해당
+                                <li>- <a target="_blank" rel="noopener noreferrer"
+                                    href="https://ddalla0425.notion.site/?p=2cb27e1365db802db0abd4721df3c452&pm=s">해당
                                     트러블 슈팅 보러가기</a></li>
                             </ul>
                         </li>
