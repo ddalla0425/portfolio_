@@ -1,10 +1,10 @@
-# 👋 Hi, I'm Dasol Kim (김다솔)
+# 👋 Hi, I'm HaOn Kim (김하온)
 
 **Growth Recorder | 기록을 넘어 시스템으로 문제를 해결하는 개발자**
 
 새로운 기술을 도입하거나 에러를 마주할 때, 과정을 체계적으로 기록하고 이를 '시스템'으로 만들어 해결하는 것을 지향합니다. 사용자에게는 안정적인 서비스를 제공하고, 동료와는 유지보수하기 좋은 깔끔한 코드로 소통하는 엔지니어로 기여하고 싶습니다.
 
-📫 **Contact:** [Email](mailto:your-email@gmail.com) | [Notion Portfolio](https://ddalla0425.notion.site) | [GitHub](https://github.com/ddalla0425)
+📫 **Contact:** [Email](mailto:hiwgod92@gmail.com) | [Notion Portfolio](https://ddalla0425.notion.site) | [GitHub](https://github.com/ddalla0425)
 
 ---
 
@@ -34,10 +34,10 @@
 
 ## 💻 Highlight Projects
 
-| 프로젝트명                                         | 한 줄 소개                                           | 핵심 엔지니어링                                                                    | 링크                       |
-| :------------------------------------------------- | :--------------------------------------------------- | :--------------------------------------------------------------------------------- | :------------------------- |
-| **NA BUDGETBOOK**<br/>_(2026.03 ~ 진행 중)_        | FSD 기반 Serverless<br/>개인 자산 관리 서비스        | `FSD 아키텍처`, `Supabase Edge Functions`, `AI-Driven DX`, `글로벌 Fetch 커스텀`   | [🔗 Repo](#) / [🌐 Web](#) |
-| **소리손순**<br/>_(2024.07 ~ 2024.08)_             | 수어 및 구화 학습용<br/>AI 게임 서비스               | `다원화 AI 아키텍처(Spring AI 서빙)`, `QueryDSL 랭킹 최적화`, `JWT 모듈화`         | [🔗 Repo](#) / [🌐 Web](#) |
-| **티슈인맥**<br/>_(2024.03 ~ 2024.04)_             | 느슨한 관계를 지향하는<br/>개인 블로그 플랫폼        | `Bulk Insert / Upsert 쿼리 최적화`, `복합 트랜잭션 무결성 확보`, `Facade DTO 설계` | [🔗 Repo](#) / [🌐 Web](#) |
-| **메일 자동화 시스템**<br/>_(2026.04)_             | 로컬 인프라 기반 스팸 메일<br/>자동화 파이프라인     | `Docker 컨테이너 구축`, `Cloudflare Tunnel 연동`, `Human-in-the-loop 설계`         | [🔗 Repo](#) / [🌐 Web](#) |
-| **야놀자리서치 (Clone)**<br/>_(2025.11 ~ 2025.12)_ | 원본 사이트의 UI/UX 한계를<br/>자체 개선한 클론 코딩 | `스택형 슬라이더 커스텀`, `전역 상태 활용 i18n 아키텍처`, `반응형 트러블슈팅`      | [🔗 Repo](#) / [🌐 Web](#) |
+| 프로젝트명                                         | 한 줄 소개                                           | 핵심 엔지니어링                                                                    | 링크                                                                                                                                               |
+| :------------------------------------------------- | :--------------------------------------------------- | :--------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **NA BUDGETBOOK**<br/>_(2026.03 ~ 진행 중)_        | FSD 기반 Serverless<br/>개인 자산 관리 서비스        | `FSD 아키텍처`, `Supabase Edge Functions`, `AI-Driven DX`, `글로벌 Fetch 커스텀`   | [🔗 Repo](https://github.com/ddalla0425/project-budget-book)                                                                                       |
+| **소리손순**<br/>_(2024.07 ~ 2024.08)_             | 수어 및 구화 학습용<br/>AI 게임 서비스               | `다원화 AI 아키텍처(Spring AI 서빙)`, `QueryDSL 랭킹 최적화`, `JWT 모듈화`         | [🔗 Repo](https://github.com/sign-muscat) / [📝 Notion](https://www.notion.so/e6b855c636c9476096970c04c5ea9ad1?v=e2781acdf21d4ad3922d86ce4f24186d) |
+| **티슈인맥**<br/>_(2024.03 ~ 2024.04)_             | 느슨한 관계를 지향하는<br/>개인 블로그 플랫폼        | `Bulk Insert / Upsert 쿼리 최적화`, `복합 트랜잭션 무결성 확보`, `Facade DTO 설계` | [🔗 Repo](https://github.com/ddalla0425/TN-project/tree/master) / [📝 Notion](https://blimu.notion.site/3HDS-3848d735f48449eba1b060a89d446ac9)     |
+| **메일 자동화 시스템**<br/>_(2026.04)_             | 로컬 인프라 기반 스팸 메일<br/>자동화 파이프라인     | `Docker 컨테이너 구축`, `Cloudflare Tunnel 연동`, `Human-in-the-loop 설계`         | [📝 구축 기록](https://ddalla0425.notion.site/?p=33d27e1365db804d8d2df82a21e56b7b&pm=s)                                                            |
+| **야놀자리서치 (Clone)**<br/>_(2025.11 ~ 2025.12)_ | 원본 사이트의 UI/UX 한계를<br/>자체 개선한 클론 코딩 | `스택형 슬라이더 커스텀`, `전역 상태 활용 i18n 아키텍처`, `반응형 트러블슈팅`      | [🔗 Repo](https://github.com/ddalla0425/yanoljaResearch-front) / [🌐 Web](https://yanolja-research-front.vercel.app/)                              |

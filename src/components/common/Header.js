@@ -31,7 +31,7 @@ export function Header({ showNav, setShowNav }) {
             </li>
             <li>
               <a onClick={() => setShowNav(false)} href="#section_8">
-                [프+백] 수동 가계부
+                [프+백] NA 혼자 쓴다
               </a>
             </li>
             <li>

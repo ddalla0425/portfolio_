@@ -245,9 +245,9 @@ export function Section2() {
                 Human-in-the-loop 스팸 필터링 파이프라인 구축
               </li>
               <li>
-                - <strong>CI/CD & Cloud:</strong> GitHub Actions를 활용한 자동화
-                배포 파이프라인 구축 및 GCP/AWS 환경에서의 인프라/비용(Budget
-                Alert) 관리 경험
+                - <strong>CI/CD & Infrastructure:</strong> Vercel을 활용한
+                Git-Ops 기반 자동 배포 환경 경험 및 GCP 콘솔 기반의
+                인프라/비용(Budget Alert) 관리
               </li>
             </ul>
           </div>

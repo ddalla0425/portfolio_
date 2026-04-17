@@ -6,7 +6,7 @@ export function Section1() {
       <div className="flex wrap">
         <div className="person">
           <img src="/images/증명사진.png" alt="증명사진" />
-          <h1>김다솔</h1>
+          <h1>김하온</h1>
           <p>Growth Recorder</p>
           <ul className="link_icon">
             <li>
@@ -101,7 +101,7 @@ export function Section1() {
           <h2>자기소개</h2>
           <strong class="pointStrong">
             "기록과 공유를 통해 반복되는 문제를 개선하고, 팀과 함께 성장하는
-            개발자 김다솔입니다."
+            개발자 김하온입니다."
           </strong>
 
           <p>

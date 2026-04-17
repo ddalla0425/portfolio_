@@ -1,3 +1,5 @@
+import { Github } from "react-bootstrap-icons";
+
 export function Section8() {
   return (
     <section id="section_8">
@@ -5,17 +7,17 @@ export function Section8() {
         <div className="title flex wrap w100">
           <div>
             <h1>
-              NA BUDGETBOOK
+              NA 혼자 쓴다
               <ul className="link_icon">
-                {/* <li>
+                <li>
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/ddalla0425/yanoljaResearch-front"
+                    href="https://github.com/ddalla0425/project-budget-book"
                   >
                     <Github />
                   </a>
-                </li> */}
+                </li>
                 {/* <li>
                   <a
                     target="_blank"
@@ -29,7 +31,8 @@ export function Section8() {
             </h1>
             <div>
               <span className="pointStrong">
-                FSD 기반 수동(Non-Auto) 개인 자산 관리 가계부 서비스
+                FSD 기반 <strong>수동(Non-Auto)</strong> 개인 자산 관리 가계부
+                서비스
               </span>
               <span className="description">
                 Serverless 환경과 Supabase 기반 DB 설계 및 Edge Function
