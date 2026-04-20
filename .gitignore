@@ -24,3 +24,6 @@ yarn-error.log*
 
 # Debug logs
 husky_debug.log
+
+# 예제
+Section_Ex.js
